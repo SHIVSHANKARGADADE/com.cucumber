@@ -1,0 +1,9 @@
+stepDefinations\Steps.class
+hookStepDefinations\HookSteps.class
+stepDefinations\LogIntestProjectRun.class
+stepDefinations\LogInTestProject.class
+stepDefinations\Run.class
+hookStepDefinations\hooksRunner.class
+stepDefinations\GoogleSteps.class
+stepDefinations\GoogleRun.class
+stepDefinations\tagsRun.class
