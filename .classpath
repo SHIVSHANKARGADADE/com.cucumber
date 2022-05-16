@@ -21,43 +21,13 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
-			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/animated-gif-lib-1.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/bson-3.6.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/commons-codec-1.11.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/cucumber-pdf-report-2.8.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/extent-pdf-report-2.5.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/extentreports-5.0.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/extentreports-cucumber6-adapter-2.11.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/fontbox-2.0.26.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/freemarker-2.3.30.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/graphics2d-0.30.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/gson-2.8.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/htmlextentreporter-1.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/httpclient-4.5.13.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/httpcore-4.4.13.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/httpmime-4.5.13.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/jsoup-1.14.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/klov-reporter-5.0.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/lombok-1.18.12.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/mongodb-driver-3.3.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/mongodb-driver-core-3.3.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/pdfbox-2.0.26.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/reactive-streams-1.0.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/rest-assured-cucumber-pdf-report-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/rxjava-3.0.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/snakeyaml-1.28.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/table-layout-1.5.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/VectorGraphics2D-0.13.jar"/>
-	<classpathentry kind="lib" path="C:/Users/shrikant subhash/Desktop/Cucumber/xchart-3.8.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -4,18 +4,23 @@ import java.time.Duration;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
+
 
 public class HookSteps {
 
-	public WebDriver driver;
+	public static WebDriver driver;
 	@Before(order = 1)
 	public void before() {
 		
@@ -83,6 +88,14 @@ public class HookSteps {
 		
 		System.out.println("driver is quit");
 		driver.quit();
+	}
+	
+	@AfterStep
+	public static void takeScreenShot(Scenario scenario) {
+		
+		final byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+		scenario.attach(screenshot, "image/png", "image");
+		
 	}
 
 
